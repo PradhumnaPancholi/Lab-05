@@ -1,0 +1,42 @@
+#hand {
+  display: flex;
+}
+
+.cardStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100px;
+  height: 150px;
+  margin: 0.5em;
+
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+
+.heart::after {
+  content: "\f004";
+  margin-left: 0.25em;
+  color: #c0392b;
+}
+
+.diamond::after {
+  content: "\f219";
+  margin-left: 0.25em;
+  color:  #c0392b;
+}
+
+.club::after {
+  content: "\f327";
+  margin-left: 0.25em;
+  color: #2c3e50;
+}
+
+.spade::after {
+  content: "\f2f4";
+  margin-left: 0.25em;
+  color: #2c3e50;
+}
